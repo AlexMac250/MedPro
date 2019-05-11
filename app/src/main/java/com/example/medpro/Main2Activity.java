@@ -22,7 +22,7 @@ public class Main2Activity extends Activity {
         txtID = (TextView) findViewById(R.id.txtID);
         txtID.setText(getIntent().getStringExtra("ID")); // textView для id
 
-        act_change2 = (Button) findViewById(R.id.act_change2);
+        act_change2 = (Button) findViewById(R.id.act_change2); // кнопка
         act_change3 = (Button) findViewById(R.id.act_change3);
 
         act_change3.setOnClickListener(new View.OnClickListener() {
