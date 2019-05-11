@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:text="Выберите цвет выделений:"
+            android:textSize="30sp"/>
+
+
+        <ImageButton
+            android:id="@+id/imageButton43"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="40dp"
+            app:srcCompat="@drawable/invisible" />
+
+        <ImageButton
+            android:id="@+id/imageButton44"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="210dp"
+            android:layout_y="40dp"
+            app:srcCompat="@drawable/white" />
+
+        <ImageButton
+            android:id="@+id/imageButton45"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="160dp"
+            app:srcCompat="@drawable/yellow" />
+
+        <ImageButton
+            android:id="@+id/imageButton46"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="210dp"
+            android:layout_y="160dp"
+            app:srcCompat="@drawable/grey" />
+
+        <ImageButton
+            android:id="@+id/imageButton47"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="280dp"
+            app:srcCompat="@drawable/dark" />
+
+        <ImageButton
+            android:id="@+id/imageButton48"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="210dp"
+            android:layout_y="280dp"
+            app:srcCompat="@drawable/green" />
+
+        <ImageButton
+            android:id="@+id/imageButton49"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="400dp"
+            app:srcCompat="@drawable/serozny" />
+
+        <ImageButton
+            android:id="@+id/imageButton50"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="210dp"
+            android:layout_y="400dp"
+            app:srcCompat="@drawable/bloody" />
+
+    </AbsoluteLayout>
+
+</ScrollView>

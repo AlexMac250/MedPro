@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="43dp"
+            android:layout_y="81dp"
+            android:button="@drawable/check_selector" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="215dp"
+            android:layout_y="78dp"
+            android:button="@drawable/check_selector2"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="220dp"
+            android:layout_y="169dp"
+            android:button="@drawable/check_selector6"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <CheckBox
+            android:id="@+id/rightDown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="24dp"
+            android:layout_x="216dp"
+            android:layout_y="242dp"
+            android:button="@drawable/check_selector4"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="220dp"
+            android:layout_y="242dp"
+            android:button="@drawable/check_selector8"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="44dp"
+            android:layout_y="246dp"
+            android:button="@drawable/check_selector3"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="139dp"
+            android:layout_y="247dp"
+            android:button="@drawable/check_selector5"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="137dp"
+            android:layout_y="171dp"
+            android:button="@drawable/check_selector7"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="196dp"
+            android:layout_y="218dp"
+            android:button="@drawable/blyadina"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="152dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="312dp"
+            android:layout_y="552dp"
+            android:text="OK"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="376dp" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

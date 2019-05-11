@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:context=".Main7Activity"
+android:orientation="vertical"
+android:gravity="center">
+
+<TextView
+    android:id="@+id/textView15"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="top|center"
+    android:text="Выберите тип деформации:"
+    android:textSize="30sp"
+    android:layout_weight="0.1"/>
+
+<TableLayout
+    android:id="@+id/tablelayout13"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2">
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/imageButton3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/leftok"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/imageButton4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rightok"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/imageButton5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/nope"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Остальное" />
+
+    </TableRow>
+
+</TableLayout>
+</LinearLayout> </ScrollView>
