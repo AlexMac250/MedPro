@@ -8,34 +8,34 @@ import android.view.View;
 
 public class Main14Activity extends AppCompatActivity {
 
-    Button button21;
-    Button button22;
-    Button button23;
+    Button coarsegrained;
+    Button finegrained;
+    Button lobed;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main14);
 
-        button21 = (Button) findViewById(R.id.button21);
-        button22 = (Button) findViewById(R.id.button22);
-        button23 = (Button) findViewById(R.id.button23);
+        coarsegrained = (Button) findViewById(R.id.coarsegrained);
+        finegrained = (Button) findViewById(R.id.finegrained);
+        lobed = (Button) findViewById(R.id.lobed);
 
-        button21.setOnClickListener(new View.OnClickListener() {
+        coarsegrained.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain15Activity();
             }
         });
 
-        button22.setOnClickListener(new View.OnClickListener() {
+        finegrained.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain15Activity();
             }
         });
 
-        button23.setOnClickListener(new View.OnClickListener() {
+        lobed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain15Activity();

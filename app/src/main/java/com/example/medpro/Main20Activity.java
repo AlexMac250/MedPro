@@ -8,8 +8,8 @@ import android.view.View;
 
 public class Main20Activity extends AppCompatActivity {
 
-    Button button31;
-    Button button32;
+    Button yes;
+    Button no;
 
 
     @Override
@@ -17,10 +17,10 @@ public class Main20Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main20);
 
-        button31 = (Button) findViewById(R.id.button31);
-        button32 = (Button) findViewById(R.id.button32);
+        yes = (Button) findViewById(R.id.yes);
+        no = (Button) findViewById(R.id.no);
 
-        button31.setOnClickListener(new View.OnClickListener() {
+        yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain21Activity();
@@ -28,7 +28,7 @@ public class Main20Activity extends AppCompatActivity {
         });
 
 
-        button32.setOnClickListener(new View.OnClickListener() {
+        no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain25Activity();

@@ -9,9 +9,9 @@ import android.widget.ImageButton;
 
 public class Main5Activity extends AppCompatActivity {
 
-    ImageButton imageButton1;
-    ImageButton imageButton2;
-    Button button3;
+    ImageButton left_bigger_right;
+    ImageButton right_bigger_left;
+    Button more;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -19,25 +19,25 @@ public class Main5Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main5);
 
 
-        imageButton1 = (ImageButton) findViewById(R.id.imageButton1);
-        imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
-        button3 = (Button) findViewById(R.id.button3);
+        left_bigger_right = (ImageButton) findViewById(R.id.left_bigger_right);
+        right_bigger_left = (ImageButton) findViewById(R.id.right_bigger_left);
+        more = (Button) findViewById(R.id.more);
 
-        imageButton1.setOnClickListener(new View.OnClickListener() {
+        left_bigger_right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain13Activity();
             }
         });
 
-        imageButton2.setOnClickListener(new View.OnClickListener() {
+        right_bigger_left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain13Activity();
             }
         });
 
-        button3.setOnClickListener(new View.OnClickListener() {
+        more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain7Activity();

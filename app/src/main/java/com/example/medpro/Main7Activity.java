@@ -9,10 +9,10 @@ import android.widget.ImageButton;
 
 public class Main7Activity extends AppCompatActivity {
 
-    ImageButton imageButton3;
-    ImageButton imageButton4;
-    ImageButton imageButton5;
-    Button button4;
+    ImageButton right_missing;
+    ImageButton left_missing;
+    ImageButton both_missing;
+    Button more;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -20,33 +20,33 @@ public class Main7Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main7);
 
 
-        imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
-        imageButton4 = (ImageButton) findViewById(R.id.imageButton4);
-        imageButton5 = (ImageButton) findViewById(R.id.imageButton5);
-        button4 = (Button) findViewById(R.id.button4);
+        right_missing = (ImageButton) findViewById(R.id.right_missing);
+        left_missing = (ImageButton) findViewById(R.id.left_missing);
+        both_missing = (ImageButton) findViewById(R.id.both_missing);
+        more = (Button) findViewById(R.id.more);
 
-        imageButton3.setOnClickListener(new View.OnClickListener() {
+        right_missing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain13Activity();
             }
         });
 
-        imageButton4.setOnClickListener(new View.OnClickListener() {
+        left_missing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain13Activity();
             }
         });
 
-        imageButton5.setOnClickListener(new View.OnClickListener() {
+        both_missing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain13Activity();
             }
         });
 
-        button4.setOnClickListener(new View.OnClickListener() {
+        more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain8Activity();

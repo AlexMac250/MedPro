@@ -18,7 +18,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/mark_lymph_nodes"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -29,7 +29,7 @@
 
 
         <CheckBox
-            android:id="@+id/checkBox1"
+            android:id="@+id/lymph_node1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="9dp"
@@ -37,56 +37,56 @@
 
 
         <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/lymph_node2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
                 android:button="@drawable/checkbox_selector"/>
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/lymph_node3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="9dp"
             android:button="@drawable/checkbox_selector" />
 
         <CheckBox
-            android:id="@+id/checkBox4"
+            android:id="@+id/lymph_node4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="9dp"
             android:button="@drawable/checkbox_selector" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/lymph_node5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="9dp"
             android:button="@drawable/checkbox_selector" />
 
         <CheckBox
-                android:id="@+id/checkBox5"
+                android:id="@+id/lymph_node6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
                 android:button="@drawable/checkbox_selector"/>
 
         <CheckBox
-                android:id="@+id/checkBox6"
+                android:id="@+id/lymph_node8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
                 android:button="@drawable/checkbox_selector"/>
 
         <CheckBox
-                android:id="@+id/checkBox7"
+                android:id="@+id/lymph_node8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
                 android:button="@drawable/checkbox_selector"/>
 
         <CheckBox
-                android:id="@+id/checkBox8"
+                android:id="@+id/lymph_node9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
@@ -94,7 +94,7 @@
 
 
         <Button
-                android:id="@+id/button20"
+                android:id="@+id/confirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"

@@ -9,7 +9,7 @@ import android.view.View;
 public class Main10Activity extends AppCompatActivity {
 
 
-    Button button11;
+    Button ok;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -17,9 +17,9 @@ public class Main10Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main10);
 
 
-        button11 = (Button) findViewById(R.id.button11);
+        ok = (Button) findViewById(R.id.fuzzy_rough);
 
-        button11.setOnClickListener(new View.OnClickListener() {
+        ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain18Activity();

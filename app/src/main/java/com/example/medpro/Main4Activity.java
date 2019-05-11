@@ -8,25 +8,25 @@ import android.view.View;
 
 public class Main4Activity extends AppCompatActivity {
 
-    Button button1;
-    Button button2;
+    Button yes;
+    Button no;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
-        button1 = (Button) findViewById(R.id.button1);
-        button2 = (Button) findViewById(R.id.button2);
+        yes = (Button) findViewById(R.id.yes);
+        no = (Button) findViewById(R.id.no);
 
-        button1.setOnClickListener(new View.OnClickListener() {
+        yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain12Activity();
             }
         });
 
-        button2.setOnClickListener(new View.OnClickListener() {
+        no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain9Activity();

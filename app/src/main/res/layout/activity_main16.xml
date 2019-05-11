@@ -12,13 +12,13 @@
         android:background="@drawable/whiteback">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/image_of_chest"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/limf" />
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/localization_additional_mammary_glands"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="top|center"
@@ -26,7 +26,7 @@
             android:textSize="30sp"/>
 
         <CheckBox
-            android:id="@+id/checkBox21"
+            android:id="@+id/gland5"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_x="296dp"
@@ -34,7 +34,7 @@
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/checkBox22"
+            android:id="@+id/gland1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_x="38dp"
@@ -42,7 +42,7 @@
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/checkBox23"
+            android:id="@+id/gland3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_x="165dp"
@@ -50,7 +50,7 @@
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/checkBox24"
+            android:id="@+id/gland4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_x="238dp"
@@ -58,7 +58,7 @@
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/checkBox25"
+            android:id="@+id/gland2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_x="83dp"
@@ -66,7 +66,7 @@
             android:button="@drawable/check_dobav" />
 
         <Button
-            android:id="@+id/button30"
+            android:id="@+id/fuzzy_rough"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_x="312dp"

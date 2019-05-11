@@ -9,7 +9,7 @@
     android:gravity="center">
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/discharge_from_which_breast"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center|bottom"
@@ -26,7 +26,7 @@
         <TableRow>
 
             <Button
-                android:id="@+id/button34"
+                android:id="@+id/left"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -36,7 +36,7 @@
                 android:text="Слева" />
 
             <Button
-                android:id="@+id/button35"
+                android:id="@+id/both"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -46,7 +46,7 @@
                 android:text="Обе" />
 
             <Button
-                android:id="@+id/button36"
+                android:id="@+id/right"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"

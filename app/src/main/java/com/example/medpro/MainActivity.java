@@ -1,24 +1,19 @@
 package com.example.medpro;
 
-import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent; // подключаем класс Intent
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.Gravity;
 import android.view.View; // подключаем класс View для обработки нажатия кнопки
 import android.widget.Button;
 import android.widget.EditText; // подключаем класс EditText
-import android.widget.TextView;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
 
     private EditText ID;
-    private Button act_change1;
+    private Button enter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ID = findViewById(R.id.ID);
-        act_change1 = findViewById(R.id.act_change1);
+        enter = findViewById(R.id.enter);
 
         ID.addTextChangedListener(loginTextWatcher);
     }
@@ -41,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         public void onTextChanged(CharSequence s, int start, int before, int count) {
             String IDInput = ID.getText().toString().trim();
 
-            act_change1.setEnabled(!IDInput.isEmpty());
+            enter.setEnabled(!IDInput.isEmpty());
         }
 
         @Override

@@ -8,25 +8,25 @@ import android.view.View;
 
 public class Main23Activity extends AppCompatActivity {
 
-    Button button37;
-    Button button38;
+    Button single_duct;
+    Button many_ducts;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main23);
 
-        button37 = findViewById(R.id.button37);
-        button38 = findViewById(R.id.button38);
+        single_duct = findViewById(R.id.single_duct);
+        many_ducts = findViewById(R.id.many_ducts);
 
-        button37.setOnClickListener(new View.OnClickListener() {
+        single_duct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain24Activity();
             }
         });
 
-        button38.setOnClickListener(new View.OnClickListener() {
+        many_ducts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain24Activity();

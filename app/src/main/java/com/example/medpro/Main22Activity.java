@@ -8,34 +8,34 @@ import android.view.View;
 
 public class Main22Activity extends AppCompatActivity {
 
-    Button button34;
-    Button button35;
-    Button button36;
+    Button left;
+    Button both;
+    Button right;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main22);
 
-        button34 = (Button) findViewById(R.id.button34);
-        button35 = (Button) findViewById(R.id.button35);
-        button36 = (Button) findViewById(R.id.button36);
+        left = (Button) findViewById(R.id.left);
+        both = (Button) findViewById(R.id.both);
+        right = (Button) findViewById(R.id.right);
 
-        button34.setOnClickListener(new View.OnClickListener() {
+        left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain23Activity();
             }
         });
 
-        button35.setOnClickListener(new View.OnClickListener() {
+        both.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain23Activity();
             }
         });
 
-        button36.setOnClickListener(new View.OnClickListener() {
+        right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain23Activity();

@@ -9,7 +9,7 @@
     android:gravity="center">
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/nipple_discharge"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center|bottom"
@@ -26,7 +26,7 @@
         <TableRow>
 
             <Button
-                android:id="@+id/button31"
+                android:id="@+id/yes"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -36,7 +36,7 @@
                 android:text="Да" />
 
             <Button
-                android:id="@+id/button32"
+                android:id="@+id/no"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"

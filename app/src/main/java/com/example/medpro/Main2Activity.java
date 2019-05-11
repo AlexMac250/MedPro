@@ -1,6 +1,5 @@
 package com.example.medpro;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.content.Intent;
@@ -10,29 +9,29 @@ import android.app.Activity;
 
 public class Main2Activity extends Activity {
 
-    Button act_change2;
-    Button act_change3;
-    TextView txtID;
+    Button information;
+    Button checkup_of_mammary_glands;
+    TextView output_id_entered;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        txtID = (TextView) findViewById(R.id.txtID);
-        txtID.setText(getIntent().getStringExtra("ID")); // textView для id
+        output_id_entered = (TextView) findViewById(R.id.output_id_entered);
+        output_id_entered.setText(getIntent().getStringExtra("ID")); // textView для id
 
-        act_change2 = (Button) findViewById(R.id.act_change2); // кнопка
-        act_change3 = (Button) findViewById(R.id.act_change3);
+        information = (Button) findViewById(R.id.information); // кнопка
+        checkup_of_mammary_glands = (Button) findViewById(R.id.checkup_of_mammary_glands);
 
-        act_change3.setOnClickListener(new View.OnClickListener() {
+        checkup_of_mammary_glands.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain4Activity();
             }
         });
 
-        act_change2.setOnClickListener(new View.OnClickListener() {
+        information.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain3Activity();

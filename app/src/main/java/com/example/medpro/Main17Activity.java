@@ -10,31 +10,31 @@ import android.widget.TextView;
 
 public class Main17Activity extends AppCompatActivity {
 
-    Button button7;
-    TextView textView22;
-    SeekBar seekBar;
+    Button ok;
+    TextView output_nodal_size;
+    SeekBar node_size_from_1_to_6;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main17);
 
-        button7 = (Button) findViewById(R.id.button7);
-        seekBar = (SeekBar) findViewById(R.id.seekBar);
-        textView22 = (TextView) findViewById(R.id.textView22);
+        ok = (Button) findViewById(R.id.fuzzy_rough);
+        node_size_from_1_to_6 = (SeekBar) findViewById(R.id.node_size_from_1_to_6);
+        output_nodal_size = (TextView) findViewById(R.id.output_nodal_size);
 
-        button7.setOnClickListener(new View.OnClickListener() {
+        ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain10Activity();
             }
         });
 
-        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+        node_size_from_1_to_6.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
 
-                textView22.setText(progress + " см");
+                output_nodal_size.setText(progress + " см");
             }
 
             @Override

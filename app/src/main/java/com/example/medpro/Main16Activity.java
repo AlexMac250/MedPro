@@ -8,16 +8,16 @@ import android.view.View;
 
 public class Main16Activity extends AppCompatActivity {
 
-    Button button30;
+    Button ok;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main16);
 
-        button30 = (Button) findViewById(R.id.button30);
+        ok = (Button) findViewById(R.id.fuzzy_rough);
 
-        button30.setOnClickListener(new View.OnClickListener() {
+        ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain13Activity();

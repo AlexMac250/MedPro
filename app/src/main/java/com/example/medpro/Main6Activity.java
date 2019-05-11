@@ -6,41 +6,39 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.ImageView;
 
 public class Main6Activity extends AppCompatActivity {
 
-    Button button20;
-    CheckBox checkBox;
-    CheckBox checkBox1;
-    CheckBox checkBox2;
-    CheckBox checkBox3;
-    CheckBox checkBox4;
-    CheckBox checkBox5;
-    CheckBox checkBox6;
-    CheckBox checkBox7;
-    CheckBox checkBox8;
-    CheckBox checkBox9;
+    Button confirm;
+    CheckBox lymph_node1;
+    CheckBox lymph_node2;
+    CheckBox lymph_node3;
+    CheckBox lymph_node4;
+    CheckBox lymph_node5;
+    CheckBox lymph_node6;
+    CheckBox lymph_node7;
+    CheckBox lymph_node8;
+    CheckBox lymph_node9;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
 
-        button20 = (Button) findViewById(R.id.button20);
-        checkBox = (CheckBox) findViewById(R.id.checkBox);
-        checkBox1 = (CheckBox) findViewById(R.id.checkBox1);
-        checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
-        checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
-        checkBox4 = (CheckBox) findViewById(R.id.checkBox4);
-        checkBox5 = (CheckBox) findViewById(R.id.checkBox5);
-        checkBox6 = (CheckBox) findViewById(R.id.checkBox6);
-        checkBox7 = (CheckBox) findViewById(R.id.checkBox7);
-        checkBox8 = (CheckBox) findViewById(R.id.checkBox8);
+        confirm = (Button) findViewById(R.id.confirm);
+        lymph_node1 = (CheckBox) findViewById(R.id.lymph_node1);
+        lymph_node2 = (CheckBox) findViewById(R.id.lymph_node2);
+        lymph_node3 = (CheckBox) findViewById(R.id.lymph_node3);
+        lymph_node4 = (CheckBox) findViewById(R.id.lymph_node4);
+        lymph_node5 = (CheckBox) findViewById(R.id.lymph_node5);
+        lymph_node6 = (CheckBox) findViewById(R.id.lymph_node6);
+        lymph_node7 = (CheckBox) findViewById(R.id.lymph_node8);
+        lymph_node8 = (CheckBox) findViewById(R.id.lymph_node8);
+        lymph_node9 = (CheckBox) findViewById(R.id.lymph_node9);
 
 
 
-        button20.setOnClickListener(new View.OnClickListener() {
+        confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
               openMain11Activity();

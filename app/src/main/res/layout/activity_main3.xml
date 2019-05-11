@@ -17,7 +17,7 @@ android:gravity="top">
     <TableRow>
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/patient_data"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -30,7 +30,7 @@ android:gravity="top">
 
     <TableRow>
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/full_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -42,7 +42,7 @@ android:gravity="top">
 
     <TableRow>
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/date_of_birth"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -54,7 +54,7 @@ android:gravity="top">
 
     <TableRow>
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/diagnosis"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -65,15 +65,16 @@ android:gravity="top">
     </TableRow>
 
     <TableRow>
+
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/patient_card"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_marginTop="30dp"
-            android:text="Карта больного"
-            android:textSize="30sp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Карта пациента"
+            android:textSize="30sp" />
     </TableRow>
 
 </TableLayout>

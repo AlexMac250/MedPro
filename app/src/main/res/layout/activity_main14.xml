@@ -22,7 +22,7 @@ android:gravity="top|center">
     <TableRow>
 
         <Button
-            android:id="@+id/button21"
+            android:id="@+id/coarsegrained"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_marginLeft="10dp"
@@ -34,7 +34,7 @@ android:gravity="top|center">
 
     <TableRow>
         <Button
-            android:id="@+id/button22"
+            android:id="@+id/finegrained"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_marginLeft="10dp"
@@ -46,7 +46,7 @@ android:gravity="top|center">
 
     <TableRow>
         <Button
-            android:id="@+id/button23"
+            android:id="@+id/lobed"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_marginLeft="10dp"

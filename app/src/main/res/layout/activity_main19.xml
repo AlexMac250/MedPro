@@ -16,7 +16,7 @@
     android:gravity="center">
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/contours_of_formation"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center|bottom"
@@ -33,7 +33,7 @@
         <TableRow>
 
             <Button
-                android:id="@+id/button27"
+                android:id="@+id/clear_smooth"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -43,7 +43,7 @@
                 android:text="чёткие-ровные" />
 
             <Button
-                android:id="@+id/button28"
+                android:id="@+id/fuzzy_smooth"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -57,7 +57,7 @@
         <TableRow>
 
             <Button
-                android:id="@+id/button29"
+                android:id="@+id/clear_rough"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -67,7 +67,7 @@
                 android:text="чёткие-неровные"/>
 
             <Button
-                android:id="@+id/button30"
+                android:id="@+id/fuzzy_rough"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"

@@ -8,70 +8,70 @@ import android.view.View;
 
 public class Main18Activity extends AppCompatActivity {
 
-    Button button;
-    Button button10;
-    Button button12;
-    Button button13;
-    Button button14;
-    Button button19;
-    Button button26;
+    Button elastic;
+    Button symptom_of_area;
+    Button dense_elastic;
+    Button symptom_of_extension;
+    Button fluctuation;
+    Button softening;
+    Button dense;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main18);
 
-        button = (Button) findViewById(R.id.button);
-        button10 = (Button) findViewById(R.id.button10);
-        button12 = (Button) findViewById(R.id.button12);
-        button13 = (Button) findViewById(R.id.button13);
-        button14 = (Button) findViewById(R.id.button14);
-        button19 = (Button) findViewById(R.id.button19);
-        button26 = (Button) findViewById(R.id.button26);
+        elastic = (Button) findViewById(R.id.elastic);
+        symptom_of_area = (Button) findViewById(R.id.symptom_of_area);
+        dense_elastic = (Button) findViewById(R.id.dense_elastic);
+        symptom_of_extension = (Button) findViewById(R.id.symptom_of_extension);
+        fluctuation = (Button) findViewById(R.id.fluctuation);
+        softening = (Button) findViewById(R.id.softening);
+        dense = (Button) findViewById(R.id.dense);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        elastic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain19Activity();
             }
         });
 
-        button10.setOnClickListener(new View.OnClickListener() {
+        symptom_of_area.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain19Activity();
             }
         });
 
-        button12.setOnClickListener(new View.OnClickListener() {
+        dense_elastic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain19Activity();
             }
         });
 
-        button13.setOnClickListener(new View.OnClickListener() {
+        symptom_of_extension.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain19Activity();
             }
         });
 
-        button14.setOnClickListener(new View.OnClickListener() {
+        fluctuation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain19Activity();
             }
         });
 
-        button19.setOnClickListener(new View.OnClickListener() {
+        softening.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain19Activity();
             }
         });
 
-        button26.setOnClickListener(new View.OnClickListener() {
+        dense.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain19Activity();

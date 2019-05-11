@@ -9,10 +9,10 @@ import android.view.View;
 public class Main9Activity extends AppCompatActivity {
 
 
-    Button button5;
-    Button button6;
-    Button button8;
-    Button button9;
+    Button inborn;
+    Button postoperative;
+    Button injury;
+    Button tumor;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -20,19 +20,19 @@ public class Main9Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main9);
 
 
-        button5 = (Button) findViewById(R.id.button5);
-        button6 = (Button) findViewById(R.id.button6);
-        button8 = (Button) findViewById(R.id.button8);
-        button9 = (Button) findViewById(R.id.button9);
+        inborn = (Button) findViewById(R.id.inborn);
+        postoperative = (Button) findViewById(R.id.postoperative);
+        injury = (Button) findViewById(R.id.injury);
+        tumor = (Button) findViewById(R.id.tumor);
 
-        button5.setOnClickListener(new View.OnClickListener() {
+        inborn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain5Activity();
             }
         });
 
-        button6.setOnClickListener(new View.OnClickListener() {
+        postoperative.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain5Activity();
@@ -40,14 +40,14 @@ public class Main9Activity extends AppCompatActivity {
         });
 
 
-        button8.setOnClickListener(new View.OnClickListener() {
+        injury.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain5Activity();
             }
         });
 
-        button9.setOnClickListener(new View.OnClickListener() {
+        tumor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain17Activity();

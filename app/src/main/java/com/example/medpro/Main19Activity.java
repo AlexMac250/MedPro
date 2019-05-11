@@ -8,43 +8,43 @@ import android.view.View;
 
 public class Main19Activity extends AppCompatActivity {
 
-    Button button27;
-    Button button28;
-    Button button29;
-    Button button30;
+    Button clear_smooth;
+    Button fuzzy_smooth;
+    Button clear_rough;
+    Button fuzzy_rough;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main19);
 
-        button27 = (Button) findViewById(R.id.button27);
-        button28 = (Button) findViewById(R.id.button28);
-        button29 = (Button) findViewById(R.id.button29);
-        button30 = (Button) findViewById(R.id.button30);
+        clear_smooth = (Button) findViewById(R.id.clear_smooth);
+        fuzzy_smooth = (Button) findViewById(R.id.fuzzy_smooth);
+        clear_rough = (Button) findViewById(R.id.clear_rough);
+        fuzzy_rough = (Button) findViewById(R.id.fuzzy_rough);
 
-        button27.setOnClickListener(new View.OnClickListener() {
+        clear_smooth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain20Activity();
             }
         });
 
-        button28.setOnClickListener(new View.OnClickListener() {
+        fuzzy_smooth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain20Activity();
             }
         });
 
-        button29.setOnClickListener(new View.OnClickListener() {
+        clear_rough.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain20Activity();
             }
         });
 
-        button30.setOnClickListener(new View.OnClickListener() {
+        fuzzy_rough.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain20Activity();

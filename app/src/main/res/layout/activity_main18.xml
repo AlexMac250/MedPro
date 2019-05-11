@@ -15,7 +15,7 @@
 
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/structure_of_formation"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -31,7 +31,7 @@
 
             <TableRow>
                 <Button
-                    android:id="@+id/button26"
+                    android:id="@+id/dense"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
@@ -43,7 +43,7 @@
 
             <TableRow>
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/elastic"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
@@ -55,7 +55,7 @@
 
             <TableRow>
                 <Button
-                    android:id="@+id/button12"
+                    android:id="@+id/dense_elastic"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
@@ -67,7 +67,7 @@
 
             <TableRow>
                 <Button
-                    android:id="@+id/button19"
+                    android:id="@+id/softening"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
@@ -79,7 +79,7 @@
 
             <TableRow>
                 <Button
-                    android:id="@+id/button14"
+                    android:id="@+id/fluctuation"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
@@ -91,7 +91,7 @@
 
             <TableRow>
                 <Button
-                    android:id="@+id/button13"
+                    android:id="@+id/symptom_of_extension"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
@@ -103,7 +103,7 @@
 
             <TableRow>
                 <Button
-                    android:id="@+id/button10"
+                    android:id="@+id/symptom_of_area"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
                     android:layout_marginLeft="10dp"

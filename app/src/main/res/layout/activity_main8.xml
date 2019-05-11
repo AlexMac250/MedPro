@@ -10,7 +10,7 @@ android:orientation="vertical"
 android:gravity="center">
 
 <TextView
-    android:id="@+id/textView16"
+    android:id="@+id/select_type_deformation"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="20dp"
@@ -27,7 +27,7 @@ android:gravity="center">
 
     <TableRow>
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/n_numbers_of_breast"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

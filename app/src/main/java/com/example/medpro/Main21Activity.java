@@ -11,31 +11,31 @@ import android.widget.TextView;
 
 public class Main21Activity extends AppCompatActivity {
 
-    Button button33;
-    TextView textView27;
-    SeekBar seekBar1;
+    Button ok;
+    TextView output_of_degree;
+    SeekBar degree_of_discharge_from_1_to_3;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main21);
 
-        button33 = (Button) findViewById(R.id.button33);
+        ok = (Button) findViewById(R.id.ok);
 
-        button33.setOnClickListener(new View.OnClickListener() {
+        ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMain22Activity();
             }
         });
-        seekBar1 = (SeekBar) findViewById(R.id.seekBar1);
-        textView27 = (TextView) findViewById(R.id.textView27);
+        degree_of_discharge_from_1_to_3 = (SeekBar) findViewById(R.id.degree_of_discharge_from_1_to_3);
+        output_of_degree = (TextView) findViewById(R.id.output_of_degree);
 
-        seekBar1.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+        degree_of_discharge_from_1_to_3.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar1, int progress, boolean fromUser) {
 
-                textView27.setText(progress + " см");
+                output_of_degree.setText(progress + " см");
             }
 
             @Override

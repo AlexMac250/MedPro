@@ -14,7 +14,7 @@ android:orientation="vertical"
 android:gravity="center">
 
 <TextView
-    android:id="@+id/textView15"
+    android:id="@+id/select_type_deformation"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
@@ -31,7 +31,7 @@ android:gravity="center">
 
     <TableRow>
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/right_missing"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +44,7 @@ android:gravity="center">
 
     <TableRow>
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/left_missing"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@ android:gravity="center">
 
     <TableRow>
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/both_missing"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@ android:gravity="center">
 
     <TableRow>
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/more"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
