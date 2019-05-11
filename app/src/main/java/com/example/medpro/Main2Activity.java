@@ -20,7 +20,7 @@ public class Main2Activity extends Activity {
         setContentView(R.layout.activity_main2);
 
         txtID = (TextView) findViewById(R.id.txtID);
-        txtID.setText(getIntent().getStringExtra("ID"));
+        txtID.setText(getIntent().getStringExtra("ID")); // textView для id
 
         act_change2 = (Button) findViewById(R.id.act_change2);
         act_change3 = (Button) findViewById(R.id.act_change3);
