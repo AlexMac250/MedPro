@@ -1,4 +1,4 @@
-package com.example.medpro;
+package com.example.medpro.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,27 +6,32 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 
-public class Main16Activity extends AppCompatActivity {
+import com.example.medpro.R;
+
+public class Main10Activity extends AppCompatActivity {
+
 
     Button ok;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main16);
+        setContentView(R.layout.activity_main10);
+
 
         ok = (Button) findViewById(R.id.fuzzy_rough);
 
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMain13Activity();
+                openMain18Activity();
             }
         });
     }
-    public void openMain13Activity()
+
+    public void openMain18Activity()
     {
-        Intent intent = new Intent(this, Main13Activity.class);
+        Intent intent = new Intent(this, Main18Activity.class);
         startActivity(intent);
     }
 }

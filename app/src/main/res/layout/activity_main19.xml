@@ -11,7 +11,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context=".Main19Activity"
+    tools:context=".Activities.Main19Activity"
     android:orientation="vertical"
     android:gravity="center">
 

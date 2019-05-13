@@ -1,4 +1,4 @@
-package com.example.medpro;
+package com.example.medpro.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,15 +6,18 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 
-public class Main13Activity extends AppCompatActivity {
+import com.example.medpro.R;
+
+public class Main20Activity extends AppCompatActivity {
 
     Button yes;
     Button no;
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main13);
+        setContentView(R.layout.activity_main20);
 
         yes = (Button) findViewById(R.id.yes);
         no = (Button) findViewById(R.id.no);
@@ -22,25 +25,26 @@ public class Main13Activity extends AppCompatActivity {
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMain15Activity();
+                openMain21Activity();
             }
         });
+
 
         no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMain14Activity();
+                openMain25Activity();
             }
         });
     }
 
-    public void openMain15Activity() {
-        Intent intent = new Intent(this, Main15Activity.class);
+    public void openMain21Activity() {
+        Intent intent = new Intent(this, Main21Activity.class);
         startActivity(intent);
     }
 
-    public void openMain14Activity() {
-        Intent intent = new Intent(this, Main14Activity.class);
+    public void openMain25Activity() {
+        Intent intent = new Intent(this, Main25Activity.class);
         startActivity(intent);
     }
 }

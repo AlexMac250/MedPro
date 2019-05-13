@@ -6,7 +6,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
 
-    <AbsoluteLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@drawable/whiteback">
@@ -15,6 +15,10 @@
             android:id="@+id/image_of_chest"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="9dp"
             app:srcCompat="@drawable/limf" />
 
         <TextView
@@ -26,54 +30,67 @@
             android:textSize="30sp"/>
 
         <CheckBox
-            android:id="@+id/gland5"
+            android:id="@+id/glandCenter"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_x="296dp"
-            android:layout_y="278dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="-74dp"
+            android:layout_toStartOf="@+id/glandRightDown"
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/gland1"
+            android:id="@+id/glandRight"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_x="38dp"
-            android:layout_y="276dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="288dp"
+            android:layout_marginEnd="47dp"
+            android:layout_toStartOf="@+id/glandRightDown"
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/gland3"
+            android:id="@+id/glandRightDown"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_x="165dp"
-            android:layout_y="315dp"
+            android:layout_alignTop="@+id/glandLeftDown"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/glandLeftDown"
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/gland4"
+            android:id="@+id/glandLeftDown"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_x="238dp"
-            android:layout_y="339dp"
+            android:layout_below="@+id/glandLeft"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="91dp"
             android:button="@drawable/check_dobav" />
 
         <CheckBox
-            android:id="@+id/gland2"
+            android:id="@+id/glandLeft"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_x="83dp"
-            android:layout_y="344dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="281dp"
             android:button="@drawable/check_dobav" />
 
         <Button
             android:id="@+id/fuzzy_rough"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_x="312dp"
-            android:layout_y="552dp"
-            android:text="OK" />
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="21dp"
+            android:background="@color/colorPrimary"
+            android:text="OK"
+            android:textColor="#000000" />
 
 
-    </AbsoluteLayout>
+    </RelativeLayout>
 
 </ScrollView>

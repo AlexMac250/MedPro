@@ -1,4 +1,4 @@
-package com.example.medpro;
+package com.example.medpro.Activities;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
 import android.app.Activity;
+
+import com.example.medpro.R;
 
 public class Main2Activity extends Activity {
 

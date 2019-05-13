@@ -1,4 +1,4 @@
-package com.example.medpro;
+package com.example.medpro.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 import android.widget.ImageButton;
+
+import com.example.medpro.Main;
+import com.example.medpro.R;
 
 public class Main5Activity extends AppCompatActivity {
 
@@ -26,6 +29,7 @@ public class Main5Activity extends AppCompatActivity {
         left_bigger_right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Main.profile.breast_development_deformation_type = "left_bigger_right";
                 openMain13Activity();
             }
         });
@@ -33,6 +37,7 @@ public class Main5Activity extends AppCompatActivity {
         right_bigger_left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Main.profile.breast_development_deformation_type = "right_bigger_left";
                 openMain13Activity();
             }
         });
@@ -40,6 +45,7 @@ public class Main5Activity extends AppCompatActivity {
         more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Main.profile.breast_development_deformation_type = "other";
                 openMain7Activity();
             }
         });

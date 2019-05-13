@@ -1,81 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-tools:context=".Main3Activity"
-android:orientation="vertical"
-android:gravity="top">
-
-<TableLayout
-    android:id="@+id/tablelayout7"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="5">
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".Activities.Main3Activity">
 
-    <TableRow>
-
-        <TextView
-            android:id="@+id/patient_data"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Данные о пациенте"
-            android:textSize="30sp"
-            android:layout_weight="1"/>
-
-    </TableRow>
-
-    <TableRow>
-    <TextView
-        android:id="@+id/full_name"
+    <TableLayout
+        android:id="@+id/tablelayout7"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="10dp"
-        android:text="ФИО:"
-        android:textSize="20sp"
-        android:layout_weight="1"/>
-    </TableRow>
+        android:layout_weight="5">
 
-    <TableRow>
-        <TextView
-            android:id="@+id/date_of_birth"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:text="Дата рождения:"
-            android:textSize="20sp"
-            android:layout_weight="1"/>
-    </TableRow>
+        <TableRow>
 
-    <TableRow>
-        <TextView
-            android:id="@+id/diagnosis"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:text="Диагноз:"
-            android:textSize="20sp"
-            android:layout_weight="1"/>
-    </TableRow>
+            <TextView
+                android:id="@+id/patient_data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Данные о пациенте"
+                android:textSize="30sp" />
 
-    <TableRow>
+        </TableRow>
 
-        <TextView
-            android:id="@+id/patient_card"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Карта пациента"
-            android:textSize="30sp" />
-    </TableRow>
+        <TableRow>
 
-</TableLayout>
+            <TextView
+                android:id="@+id/full_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="ФИО:"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/date_of_birth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Дата рождения:"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/diagnosis"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Диагноз:"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/patient_card"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Карта пациента"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5">
+
+            <TextView
+                android:id="@+id/textViewProfileDebug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+
+    </TableLayout>
+
+
 </LinearLayout>

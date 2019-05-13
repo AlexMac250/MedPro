@@ -1,13 +1,15 @@
-package com.example.medpro;
+package com.example.medpro.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Main3Activity extends AppCompatActivity {
+import com.example.medpro.R;
+
+public class Main25Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main25);
     }
 }

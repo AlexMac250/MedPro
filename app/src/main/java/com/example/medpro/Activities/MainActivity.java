@@ -1,4 +1,4 @@
-package com.example.medpro;
+package com.example.medpro.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,44 +9,45 @@ import android.view.View; // подключаем класс View для обр�
 import android.widget.Button;
 import android.widget.EditText; // подключаем класс EditText
 
+import com.example.medpro.Main;
+import com.example.medpro.Profile;
+import com.example.medpro.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText ID;
-    private Button enter;
+    private EditText exitTextID;
+    private Button buttonEnter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ID = findViewById(R.id.ID);
-        enter = findViewById(R.id.enter);
+        exitTextID = findViewById(R.id.ID);
+        buttonEnter = findViewById(R.id.enter);
 
-        ID.addTextChangedListener(loginTextWatcher);
+        exitTextID.addTextChangedListener(loginTextWatcher);
     }
 
     private TextWatcher loginTextWatcher = new TextWatcher() {
         @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-        }
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            String IDInput = ID.getText().toString().trim();
-
-            enter.setEnabled(!IDInput.isEmpty());
+            buttonEnter.setEnabled(!exitTextID.getText().toString().trim().isEmpty());
         }
 
         @Override
-        public void afterTextChanged(Editable s) {
-        }
+        public void afterTextChanged(Editable s) {}
     };
 
     public void sendData(View view) {
+        String id = exitTextID.getText().toString();
         Intent intent = new Intent(this, Main2Activity.class);
-        intent.putExtra("ID", ID.getText().toString());
+        intent.putExtra("exitTextID", id);
+        Main.profile = new Profile(id);
         startActivity(intent);
     }
 

@@ -1,10 +1,12 @@
-package com.example.medpro;
+package com.example.medpro.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
+
+import com.example.medpro.R;
 
 public class Main22Activity extends AppCompatActivity {
 
