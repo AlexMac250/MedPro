@@ -7,84 +7,107 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        tools:context=".Activities.Main24Activity"
+        android:orientation="vertical"
+        android:gravity="top|center">
+
+        <TableLayout
+            android:id="@+id/tablelayout22"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TableRow>
 
         <TextView
             android:id="@+id/choose_color_discharge"
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="top|center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
             android:text="Выберите цвет выделений:"
             android:textSize="30sp"/>
 
+    </TableRow>
+    </TableLayout>
 
-        <ImageButton
-            android:id="@+id/imageButton43"
-            android:layout_width="170dp"
+        <TableLayout
+            android:id="@+id/tablelayout"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_x="25dp"
-            android:layout_y="40dp"
-            app:srcCompat="@drawable/invisible" />
+            android:layout_weight="7">
 
-        <ImageButton
-            android:id="@+id/imageButton44"
-            android:layout_width="170dp"
+        <TableRow>
+        <Button
+            android:id="@+id/Button_zeleniy"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_x="210dp"
-            android:layout_y="40dp"
-            app:srcCompat="@drawable/white" />
+            android:background="@drawable/zeleniy"
+            android:layout_marginTop="20dp"
+            android:text="Зелёные, непрозрачные" />
+        </TableRow>
 
-        <ImageButton
-            android:id="@+id/imageButton45"
-            android:layout_width="170dp"
+        <TableRow>
+        <Button
+            android:id="@+id/Button_chorniy"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_x="25dp"
-            android:layout_y="160dp"
-            app:srcCompat="@drawable/yellow" />
+            android:background="@drawable/tomnozeleniy"
+            android:text="Чёрные, тёмно-зелёные, непрозрачные"/>
+        </TableRow>
 
-        <ImageButton
-            android:id="@+id/imageButton46"
-            android:layout_width="170dp"
+        <TableRow>
+        <Button
+            android:id="@+id/Button_korichneviy"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_x="210dp"
-            android:layout_y="160dp"
-            app:srcCompat="@drawable/grey" />
+            android:background="@drawable/korichneviy"
+            android:text="Коричневые, непрозрачные"/>
+        </TableRow>
 
-        <ImageButton
-            android:id="@+id/imageButton47"
-            android:layout_width="170dp"
+        <TableRow>
+        <Button
+            android:id="@+id/Button_bordoviy"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_x="25dp"
-            android:layout_y="280dp"
-            app:srcCompat="@drawable/dark" />
+            android:background="@drawable/bordoviy"
+            android:text="Бордовые, непрозрачные"/>
+        </TableRow>
 
-        <ImageButton
-            android:id="@+id/imageButton48"
-            android:layout_width="170dp"
+        <TableRow>
+        <Button
+            android:id="@+id/Button_krasniy"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_x="210dp"
-            android:layout_y="280dp"
-            app:srcCompat="@drawable/green" />
+            android:background="@drawable/krasniy"
+            android:text="Красные, непрозрачные"/>
+        </TableRow>
 
-        <ImageButton
-            android:id="@+id/imageButton49"
-            android:layout_width="170dp"
+        <TableRow>
+        <Button
+            android:id="@+id/Button_yantarniy"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_x="25dp"
-            android:layout_y="400dp"
-            app:srcCompat="@drawable/serozny" />
+            android:background="@drawable/yantarniy"
+            android:text="Янтарные, прозрачные"/>
+        </TableRow>
 
-        <ImageButton
-            android:id="@+id/imageButton50"
-            android:layout_width="170dp"
+        <TableRow>
+        <Button
+            android:id="@+id/Button_bestsvetniy"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_x="210dp"
-            android:layout_y="400dp"
-            app:srcCompat="@drawable/bloody" />
+            android:background="@drawable/bestsvetniy"
+            android:text="Бесцветные, прозрачные"/>
+        </TableRow>
 
-    </AbsoluteLayout>
+        </TableLayout>
+
+    </LinearLayout>
 
 </ScrollView>
