@@ -12,9 +12,8 @@
     <LinearLayout
         tools:context=".Activities.Main6Activity"
         android:id="@+id/linear"
-        android:background="@drawable/body"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:orientation="vertical">
 
         <TextView
@@ -27,73 +26,20 @@
             android:text="Отметьте лимфатические узлы"
             android:textSize="27sp"/>
 
-
-        <CheckBox
-            android:id="@+id/lymph_node1"
-            android:layout_width="wrap_content"
+        <TableLayout
+            android:id="@+id/tablelayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_weight="2"
+            android:background="@drawable/ic_whatafakk">
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tablelayout1"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:button="@drawable/checkbox_selector" />
-
-
-        <CheckBox
-                android:id="@+id/lymph_node2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:button="@drawable/checkbox_selector"/>
-
-        <CheckBox
-            android:id="@+id/lymph_node3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:button="@drawable/checkbox_selector" />
-
-        <CheckBox
-            android:id="@+id/lymph_node4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:button="@drawable/checkbox_selector" />
-
-        <CheckBox
-            android:id="@+id/lymph_node5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="9dp"
-            android:button="@drawable/checkbox_selector" />
-
-        <CheckBox
-                android:id="@+id/lymph_node6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:button="@drawable/checkbox_selector"/>
-
-        <CheckBox
-                android:id="@+id/lymph_node8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:button="@drawable/checkbox_selector"/>
-
-        <CheckBox
-                android:id="@+id/lymph_node8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:button="@drawable/checkbox_selector"/>
-
-        <CheckBox
-                android:id="@+id/lymph_node9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
-                android:button="@drawable/checkbox_selector"/>
-
-
-        <Button
+            android:layout_weight="2"
+            >
+            <Button
                 android:id="@+id/confirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -102,6 +48,7 @@
                 android:text="Подтвердить" />
 
 
+        </TableLayout>
     </LinearLayout>
 
 
