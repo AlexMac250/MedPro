@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+    <question1 id="4893244382"/>
+    <question2 ans="true">mammary_glands_well_developed</question2>
+    <question3 ans="true">is_symmetric</question3>
+    <question4 ans="true">structure_is_homogeneous</question4>
+    <question5 ans="inborn"/>
+    <question6 ans="true">
+        <param1 ans="3"/>
+        <param2 ans="LeftUp,RightUp,LeftCenterDown"/>
+    </question6>
+</profile>

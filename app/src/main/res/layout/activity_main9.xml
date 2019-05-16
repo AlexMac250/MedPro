@@ -3,91 +3,94 @@
     android:id="@+id/ScrollView01"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-<LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-tools:context=".Activities.Main9Activity"
-android:orientation="vertical"
-android:gravity="top">
 
-<TableLayout
-    android:id="@+id/tablelayout8"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:context=".Activities.Main9Activity">
 
-    <TableRow>
+        <TableLayout
+            android:id="@+id/tablelayout8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/cause_of_deformation"
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/cause_of_deformation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Причина деформации:"
+                    android:textSize="30sp" />
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tablelayout9"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Причина деформации:"
-            android:textSize="30sp"
-            android:layout_weight="1"/>
+            android:layout_weight="5">
 
+            <TableRow>
 
-    </TableRow>
-</TableLayout>
+                <Button
+                    android:id="@+id/inborn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="врождённая" />
+            </TableRow>
 
-<TableLayout
-    android:id="@+id/tablelayout66"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="4">
+            <TableRow>
 
-    <TableRow>
+                <Button
+                    android:id="@+id/postoperative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="послеоперационная" />
+            </TableRow>
 
-        <Button
-            android:id="@+id/inborn"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="30dp"
-            android:layout_weight="1"
-            android:text="врождённая"/>
-    </TableRow>
+            <TableRow>
 
-    <TableRow>
-        <Button
-            android:id="@+id/postoperative"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:text="послеоперационная" />
-    </TableRow>
+                <Button
+                    android:id="@+id/injury"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="травма" />
+            </TableRow>
 
-    <TableRow>
-        <Button
-            android:id="@+id/injury"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:text="травма" />
-    </TableRow>
+            <TableRow>
 
-    <TableRow>
+                <Button
+                    android:id="@+id/tumor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="опухоль" />
+            </TableRow>
 
-        <Button
-            android:id="@+id/tumor"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:text="опухоль" />
-    </TableRow>
-
-</TableLayout>
-</LinearLayout> </ScrollView>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

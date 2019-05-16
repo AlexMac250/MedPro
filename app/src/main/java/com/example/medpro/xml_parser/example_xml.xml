@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<profile>
+    <info>
+		<id>9807657678365</id>
+		<surname>Францева</surname>
+		<firstname>Марина</firstname>
+		<middle_name>Евгеньевна</middle_name>
+		<birthday>29.03.1981</birthday>
+		<other>Другое</other>
+	</info>
+	<diagnosis_params>
+		<breast_development is_right="false">
+			<symmetric param="false">
+				<cause>Причина</cause>
+				<type_of_deformaiton>Тип деформации</type_of_deformaiton>
+				<other_type_of_deformaiton>Иной тип деформации</other_type_of_deformaiton>
+			</symmetric>
+			<extension_of_the_mammary_glands param="true">
+				<left>true</left>
+				<leftDown>false</leftDown>
+				<center>false</center>
+				<rightDown>false</rightDown>
+				<right>true</right>
+			</extension_of_the_mammary_glands>
+		</breast_development>
+		<nodal_formation param="true">
+			<area>
+				<leftUp>true</leftUp>
+				<rightUp>false</rightUp>
+				<leftDown>false</leftDown>
+				<rightDown>false</rightDown>
+				<leftCenterUp>true</leftCenterUp>
+				<rightCenterUp>false</rightCenterUp>
+				<leftCenterDown>false</leftCenterDown>
+				<rightCenterDown>true</rightCenterDown>
+			</area>
+			<struct>Структура</struct>
+			<contours>Контур</contours>
+		</nodal_formation>
+	</diagnosis_params>
+</profile>

@@ -6,46 +6,66 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 
-import com.example.medpro.Main;
 import com.example.medpro.R;
 
-public class Main9Activity extends AppCompatActivity implements View.OnClickListener {
+
+public class Main9Activity extends AppCompatActivity {
+
+
+    Button inborn;
+    Button postoperative;
+    Button injury;
+    Button tumor;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main9);
-    }
 
-    public void openMain5Activity() {
+
+        inborn = (Button) findViewById(R.id.inborn);
+        postoperative = (Button) findViewById(R.id.postoperative);
+        injury = (Button) findViewById(R.id.injury);
+        tumor = (Button) findViewById(R.id.tumor);
+
+        inborn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMain5Activity();
+            }
+        });
+
+        postoperative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMain5Activity();
+            }
+        });
+
+
+        injury.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMain5Activity();
+            }
+        });
+
+        tumor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMain17Activity();
+            }
+        });
+    }
+    public void openMain5Activity()
+    {
         Intent intent = new Intent(this, Main5Activity.class);
         startActivity(intent);
     }
 
-    public void openMain17Activity() {
+    public void openMain17Activity()
+    {
         Intent intent = new Intent(this, Main17Activity.class);
         startActivity(intent);
-    }
-
-    //breast development
-
-    @Override
-    public void onClick(View v) {
-        Button button = (Button) v;
-        String answer;
-        switch (v.getId()) {
-            case R.id.inborn:
-            case R.id.postoperative:
-            case R.id.injury:
-                answer = button.getText().toString();
-                Main.profile.breast_development_cause = answer;
-                openMain5Activity();
-                break;
-            case R.id.tumor:
-                answer = button.getText().toString();
-                Main.profile.breast_development_cause = answer;
-                Main.profile.breast_development_deformation_type = "other";
-                openMain17Activity();
-                break;
-        }
     }
 }

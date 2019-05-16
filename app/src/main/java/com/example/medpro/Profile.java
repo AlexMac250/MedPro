@@ -50,7 +50,7 @@ public class Profile {
     public boolean leftCenterDown_nodal_formation = false;
     public boolean rightCenterDown_nodal_formation = false;
     /** Структура узлового образования */
-    public String structure_of_nodal_formation;
+    public String struct_of_nodal_formation;
     /** Контур узлового образования */
     public String contours_of_nodal_formation;
 
@@ -94,7 +94,7 @@ public class Profile {
                 "\trightCenterUp_nodal_formation=" + rightCenterUp_nodal_formation + "\n"  +
                 "\tleftCenterDown_nodal_formation=" + leftCenterDown_nodal_formation + "\n"  +
                 "\trightCenterDown_nodal_formation=" + rightCenterDown_nodal_formation + "\n\n"  +
-                "\tstructure_of_nodal_formation='" + structure_of_nodal_formation + "'\n" +
+                "\tstructure_of_nodal_formation='" + struct_of_nodal_formation + "'\n" +
                 "\tcontours_of_nodal_formation='" + contours_of_nodal_formation + "'\n" +
                 "\tdischarge_from_the_nipple=" + discharge_from_the_nipple + "\n"  +
                 "\tdegree_of_discharge_from_the_nipple=" + degree_of_discharge_from_the_nipple + "\n"  +

@@ -36,77 +36,77 @@
     </TableRow>
     </TableLayout>
 
-        <TableLayout
-            android:id="@+id/tablelayout"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="7">
+        <!--<TableLayout-->
+            <!--android:id="@+id/tablelayout"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="7">-->
 
-        <TableRow>
-        <Button
-            android:id="@+id/Button_zeleniy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/zeleniy"
-            android:layout_marginTop="20dp"
-            android:text="Зелёные, непрозрачные" />
-        </TableRow>
+        <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/Button_zeleniy"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/zeleniy"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text="Зелёные, непрозрачные" />-->
+        <!--</TableRow>-->
 
-        <TableRow>
-        <Button
-            android:id="@+id/Button_chorniy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/tomnozeleniy"
-            android:text="Чёрные, тёмно-зелёные, непрозрачные"/>
-        </TableRow>
+        <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/Button_chorniy"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/tomnozeleniy"-->
+            <!--android:text="Чёрные, тёмно-зелёные, непрозрачные"/>-->
+        <!--</TableRow>-->
 
-        <TableRow>
-        <Button
-            android:id="@+id/Button_korichneviy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/korichneviy"
-            android:text="Коричневые, непрозрачные"/>
-        </TableRow>
+        <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/Button_korichneviy"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/korichneviy"-->
+            <!--android:text="Коричневые, непрозрачные"/>-->
+        <!--</TableRow>-->
 
-        <TableRow>
-        <Button
-            android:id="@+id/Button_bordoviy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bordoviy"
-            android:text="Бордовые, непрозрачные"/>
-        </TableRow>
+        <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/Button_bordoviy"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/bordoviy"-->
+            <!--android:text="Бордовые, непрозрачные"/>-->
+        <!--</TableRow>-->
 
-        <TableRow>
-        <Button
-            android:id="@+id/Button_krasniy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/krasniy"
-            android:text="Красные, непрозрачные"/>
-        </TableRow>
+        <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/Button_krasniy"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/krasniy"-->
+            <!--android:text="Красные, непрозрачные"/>-->
+        <!--</TableRow>-->
 
-        <TableRow>
-        <Button
-            android:id="@+id/Button_yantarniy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/yantarniy"
-            android:text="Янтарные, прозрачные"/>
-        </TableRow>
+        <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/Button_yantarniy"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/yantarniy"-->
+            <!--android:text="Янтарные, прозрачные"/>-->
+        <!--</TableRow>-->
 
-        <TableRow>
-        <Button
-            android:id="@+id/Button_bestsvetniy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bestsvetniy"
-            android:text="Бесцветные, прозрачные"/>
-        </TableRow>
+        <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/Button_bestsvetniy"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/bestsvetniy"-->
+            <!--android:text="Бесцветные, прозрачные"/>-->
+        <!--</TableRow>-->
 
-        </TableLayout>
+        <!--</TableLayout>-->
 
     </LinearLayout>
 
