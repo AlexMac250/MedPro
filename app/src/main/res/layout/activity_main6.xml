@@ -20,7 +20,7 @@
             android:layout_marginTop="5dp"
             android:gravity="top|center"
             android:orientation="vertical"
-            android:text="Отметьте лимфатические узлы"
+            android:text="Отметьте лимФатические узлы"
             android:textSize="27sp"/>
 
         <TableLayout
