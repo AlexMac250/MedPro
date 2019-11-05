@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        exitTextID = findViewById(R.id.ID);
+        exitTextID = findViewById(R.id.ID) ;
         buttonEnter = findViewById(R.id.enter);
 
         exitTextID.addTextChangedListener(loginTextWatcher);
