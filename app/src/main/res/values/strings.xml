@@ -93,4 +93,5 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Настройки</string>
+    <string name="size_limf"><![CDATA[< 1 см.]]></string>
 </resources>

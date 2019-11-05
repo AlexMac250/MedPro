@@ -37,7 +37,7 @@ public class Main23Activity extends AppCompatActivity {
     }
 
     public void openMain24Activity() {
-        Intent intent = new Intent(this, Main24Activity.class);
+        Intent intent = new Intent(this, Main25Activity.class);// FIXME: 16.05.2019 replace with Main24Activity
         startActivity(intent);
     }
 }

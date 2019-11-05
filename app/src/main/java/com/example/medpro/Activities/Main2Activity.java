@@ -47,7 +47,7 @@ public class Main2Activity extends Activity {
     }
 
     public void openMain3Activity() {
-        Intent intent = new Intent(this, Main3Activity.class);
+        Intent intent = new Intent(this, ParametersLimfActivity.class);// FIXME: 16.05.2019 replace with Main3Activity
         startActivity(intent);
     }
 
